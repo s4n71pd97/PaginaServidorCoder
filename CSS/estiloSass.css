@@ -152,13 +152,7 @@ p {
 
 .principal-galeria {
   background-image: linear-gradient(to bottom, #000000, #21171b, #3b2633, #533750, #684b71, #725086, #78569e, #7a5db7, #7753c6, #7249d4, #6b3de3, #632ff1);
+  height:auto;
 }
 
 
-@media screen and (max-width: 700px) {
-  .principal-galeria {
-    background-image: linear-gradient(to bottom, #000000, #21171b, #3b2633, #533750, #684b71, #725086, #78569e, #7a5db7, #7753c6, #7249d4, #6b3de3, #632ff1);
-    height: 100vh
-  }
-
-}
