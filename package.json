@@ -1,0 +1,26 @@
+{
+  "name": "proyecto1",
+  "version": "1.0.0",
+  "description": "pagina web del curso front end coderhouse\r Tutor las paginas a las cuales les agregue boostrap fueron el index y la pagina servicio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css":"node-sass --include-path scss SASS/estilos.scss CSS/estiloSass.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s4n71pd97/Pagina-web-coderHouse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s4n71pd97/Pagina-web-coderHouse/issues"
+  },
+  "homepage": "https://github.com/s4n71pd97/Pagina-web-coderHouse#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}

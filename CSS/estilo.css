@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav_bar {
+   background-color: #000000;
+  
+}
+
+.principal{
+  background-image: linear-gradient(to bottom, #000000, #21171b, #3b2633, #533750, #684b71, #725086, #78569e, #7a5db7, #7753c6, #7249d4, #6b3de3, #632ff1); 
+}
+
+.principal-servicios{
+  background-image: linear-gradient(to bottom, #000000, #21171b, #3b2633, #533750, #684b71, #725086, #78569e, #7a5db7, #7753c6, #7249d4, #6b3de3, #632ff1); 
+  height:100vh;
+}
+
+.row-pading{
+  padding-top:3%;
+  padding-bottom: 5%;
+}
+
+#Row-Quienes-somos{
+  background-color: #ffffff33;
+}
+
+#Row-Servicios{
+  background-color: #00000033;
+}
+
+#Row-Carreras{
+  background-color: #a681fd3f;
+}
+
+#Row-Ubicacion{
+  background-color: #edbafa33;
+}
+
+#Row-Contactos{
+  background-color: #ffffff33;
+}
+
+#Index-Carrousel{
+  align-items: center;
+}
+
+
+#textoInformativo{
+  color: #ffffff;
+  position: relative;
+  left: 50px;
+  top: 350px;
+  width: 500px;
+  animation:fadeInDown;
+  animation-duration: 2s;
+}
+
+#txtImgGrupo{
+  color: #ffffff;
+  position: relative;
+  left: 11px;
+  top: -7px;
+  animation:fadeInDown;
+  animation-duration: 2s;
+}
+
+
+#txtImgPersonal{
+  color: #ffffff;
+  left: 50px;
+  top: 350px;
+  animation:fadeInDown;
+  animation-duration: 2s;
+}
+
+#txtImgEstudios{
+  color: #ffffff;
+  position: relative;
+  left: 7px;
+  top: -13px;
+  animation:fadeInDown;
+  animation-duration: 2s;
+}
+
+.txtMaratonMapCont{
+  color: #ffffff;
+  animation:fadeInDown;
+  animation-duration: 2s;
+}
+
+.TextoImg{
+  animation:fadeInDown;
+  animation-duration: 2s;
+}
+
+.AnimacionIzquierda{
+  animation:fadeInLeft;
+  animation-duration: 2s;
+}
+
+.Principal-Texto{
+  text-align:center;
+  color: #ffffff;
+}
+
